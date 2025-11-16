@@ -1,0 +1,63 @@
+#Login information for epic fight patron server. Do not change these values manually
+access_token = ""
+refresh_token = ""
+#Allowed Values: NULL, DISCORD, PATREON
+provider = "NULL"
+
+[ingame]
+	#Range: 1 ~ 10
+	long_press_count = 2
+	#Range: 0 ~ 30
+	max_hit_projectiles = 30
+	#Range: 0.0 ~ 1.0
+	laser_pointer_color = 0.328125
+	enable_laser_pointer = true
+	camera_auto_switch = true
+	blood_effects = true
+	aiming_correction = true
+	show_epicfight_attributes = true
+	first_person_model = true
+	enable_pov_action = false
+	enable_cosmetics = true
+	combat_preferred_items = ["minecraft:crossbow", "efn:ruinsgreatsword", "cataclysm:coral_spear", "efn:yamato_dmc", "epicfight:diamond_tachi", "sword_soaring:vatansever", "cataclysm:meat_shredder", "minecraft:stone_axe", "cataclysm:astrape", "epicfight:netherite_tachi", "aquamirae:dagger_of_greed", "invincible:custom_skill_demo", "epicfight:golden_longsword", "epicfight:golden_dagger", "epicfight:stone_dagger", "minecraft:golden_axe", "cataclysm:the_annihilator", "epicfight:golden_tachi", "efn:yamato_dmc4_in_sheath", "minecraft:trident", "minecraft:diamond_axe", "epicfight:iron_dagger", "block_factorys_bosses:knight_sword", "epicfight:iron_longsword", "minecraft:bow", "cataclysm:soul_render", "epicfight:iron_tachi", "epicfight:wooden_greatsword", "monsterexpansion:horn_of_the_shattercry", "epicfight:wooden_spear", "dodosmobs:amalgam_claws", "cataclysm:final_fractal", "artifacts:power_glove", "mowziesmobs:blowgun", "epicfight:diamond_greatsword", "epicfight:netherite_greatsword", "epicfight:wooden_tachi", "epicfight:uchigatana", "cataclysm:ancient_spear", "block_factorys_bosses:large_sword", "efn:nf_dual_sword", "aquamirae:whisper_of_the_abyss", "aquamirae:divider", "cataclysm:khopesh", "super_golem:golem_heart", "mowziesmobs:naga_fang_dagger", "cataclysm:zweiender", "epicfight:stone_longsword", "efn:hf_murasama", "epicfight:wooden_dagger", "epicfight:netherite_spear", "efn:nf_shortsword", "p1nero_bow:oblivionis", "aquamirae:fin_cutter", "aquamirae:sweet_lance", "epicfight:diamond_dagger", "efn:air_tachi", "block_factorys_bosses:warrior_sword", "minecraft:wooden_axe", "aquamirae:remnants_saber", "minecraft:golden_sword", "minecraft:diamond_sword", "efn:exsiliumgladius", "efn:arc_tachi", "block_factorys_bosses:dagger", "tcrcore:dual_bokken", "fromtheshadows:devil_splitter", "cataclysm:wrath_of_the_desert", "efn:co_tachi", "epicfight:stone_tachi", "minecraft:iron_sword", "efn:yamato_dmc4", "minecraft:wooden_sword", "epicfight:wooden_longsword", "epicfight:diamond_spear", "efn:sword_of_pioneer", "aquamirae:poisoned_blade", "mowziesmobs:wrought_axe", "aquamirae:terrible_sword", "epicfight:iron_spear", "efn:yamato_dmc_in_sheath", "aquamirae:coral_lance", "minecraft:netherite_sword", "cataclysm:ceraunus", "cataclysm:cursed_bow", "cataclysm:coral_bardiche", "cataclysm:athame", "epicfight:golden_greatsword", "epicfight:diamond_longsword", "epicfight:iron_greatsword", "cataclysm:the_incinerator", "fromtheshadows:crystallized_dagger", "create:cardboard_sword", "efn:nf_claw", "minecraft:netherite_axe", "minecraft:stone_sword", "invincible:custom_combo_demo", "epicfight:glove", "epicfight:netherite_longsword", "epicfight:netherite_dagger", "fromtheshadows:thirst_for_blood", "epicfight:stone_greatsword", "epicfight:bokken", "minecraft:iron_axe", "artifacts:vampiric_glove", "efn:meen_spear", "cataclysm:black_steel_sword", "epicfight:golden_spear", "invincible:debug", "monsterexpansion:duskrend", "aquamirae:poisoned_chakra", "efn:fire_exsiliumgladius", "epicfight:stone_spear", "p1nero_bow:mortis"]
+	show_target_indicator = true
+	#Allowed Values: NONE, HURT, TARGET, TARGET_AND_HURT
+	health_bar_show_option = "HURT"
+	use_compute_shader = true
+	enable_target_entity_guide = false
+	#Allowed Values: NONE, CROSSHAIR, HIGHLIGHT, CROSSHAIR_AND_HIGHLIGHT
+	mine_block_guide_option = "NONE"
+	#Allowed Values: NONE, INTERACTION, ITEM_USE, INTERACTION_AND_ITEMUSE
+	key_conflict_resolve_scope = "INTERACTION"
+	enable_player_vanilla_model = true
+	#Allowed Values: ADAPTIVE, SWITCH_MODE
+	preference_work = "ADAPTIVE"
+
+	[ingame.ui]
+		stamina_bar_x = 120
+		stamina_bar_y = 10
+		#Allowed Values: LEFT, RIGHT, CENTER
+		stamina_bar_x_base = "RIGHT"
+		#Allowed Values: TOP, BOTTOM, CENTER
+		stamina_bar_y_base = "BOTTOM"
+		weapon_innate_x = 42
+		weapon_innate_y = 48
+		#Allowed Values: LEFT, RIGHT, CENTER
+		weapon_innate_x_base = "RIGHT"
+		#Allowed Values: TOP, BOTTOM, CENTER
+		weapon_innate_y_base = "BOTTOM"
+		passives_x = 70
+		passives_y = 36
+		#Allowed Values: LEFT, RIGHT, CENTER
+		passives_x_base = "RIGHT"
+		#Allowed Values: TOP, BOTTOM, CENTER
+		passives_y_base = "BOTTOM"
+		#Allowed Values: HORIZONTAL, VERTICAL
+		passives_align_direction = "HORIZONTAL"
+		charging_bar_x = -119
+		charging_bar_y = 60
+		#Allowed Values: LEFT, RIGHT, CENTER
+		charging_bar_x_base = "CENTER"
+		#Allowed Values: TOP, BOTTOM, CENTER
+		charging_bar_y_base = "CENTER"
+
